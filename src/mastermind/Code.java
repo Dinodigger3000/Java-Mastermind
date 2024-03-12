@@ -5,7 +5,7 @@ import java.util.List;
 
 public abstract class Code {
 
-    List<GamePiece> code;
+   protected List<GamePiece> code;
 
     public Code(int size) {
         code = new ArrayList<GamePiece>();
