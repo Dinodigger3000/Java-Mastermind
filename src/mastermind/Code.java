@@ -4,10 +4,10 @@ import java.util.List;
 
 public abstract class Code {
 
-    private List<GamePiece> code;
+    List<GamePiece> code;
 
     public Code() {
-
+        
     }
 
     @Override
