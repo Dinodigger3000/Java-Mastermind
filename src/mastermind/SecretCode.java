@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class SecretCode extends Code{
     public SecretCode(){
-        super();
+        super(4);
         generateRandomCode(4);
     }
     private void generateRandomCode(int length) {

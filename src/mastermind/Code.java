@@ -1,13 +1,17 @@
 package mastermind;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Code {
 
     List<GamePiece> code;
 
-    public Code() {
-        
+    public Code(int size) {
+        code = new ArrayList<GamePiece>();
+        for (int i = 0; i < size; i++) {
+            code.add(null);
+        }
     }
 
     @Override
